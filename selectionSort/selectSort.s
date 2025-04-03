@@ -5,7 +5,7 @@
 .globl _start
 _start:
     la s1, num
-    li s2, 5 # 10
+    li s2, 10 # 10
     li t0, 0 # i
     addi t1, s2, -1
 
